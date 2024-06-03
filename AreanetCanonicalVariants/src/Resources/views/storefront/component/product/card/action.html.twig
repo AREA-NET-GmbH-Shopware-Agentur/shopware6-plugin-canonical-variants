@@ -1,0 +1,19 @@
+{% sw_extends '@Storefront/storefront/component/product/card/action.html.twig' %}
+
+{% block component_product_box_action_detail %}
+    {% set productId = product.id %}
+
+    {% if product.parentId %}
+        {% set productId = product.parentId %}
+    {% elseif product.canonicalProductId %}
+        {% set productId = product.canonicalProductId %}
+    {% endif %}
+
+    <div class="d-grid">
+        <a href="{{ seoUrl('frontend.detail.page', {'productId': productId}) }}"
+           class="btn btn-light"
+           title="{{ "listing.boxProductDetails"|trans|striptags }}">
+            {{ "listing.boxProductDetails"|trans|sw_sanitize }}
+        </a>
+    </div>
+{% endblock %}

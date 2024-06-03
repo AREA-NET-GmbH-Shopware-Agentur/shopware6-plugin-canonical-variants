@@ -1,0 +1,35 @@
+{% sw_extends '@Storefront/storefront/component/product/card/box-standard.html.twig' %}
+
+{% block component_product_box_image_link %}
+    {% set productId = product.id %}
+
+    {% if product.parentId %}
+        {% set productId = product.parentId %}
+    {% elseif product.canonicalProductId %}
+        {% set productId = product.canonicalProductId %}
+    {% endif %}
+
+    <a href="{{ seoUrl('frontend.detail.page', { 'productId': productId }) }}"
+       title="{{ name }}"
+       class="product-image-link is-{{ displayMode }}">
+        {% block component_product_box_image_link_inner %}
+            {{ parent() }}
+        {% endblock %}
+    </a>
+{% endblock %}
+
+{% block component_product_box_name %}
+    {% set productId = product.id %}
+
+    {% if product.parentId %}
+        {% set productId = product.parentId %}
+    {% elseif product.canonicalProductId %}
+        {% set productId = product.canonicalProductId %}
+    {% endif %}
+
+    <a href="{{ seoUrl('frontend.detail.page', {'productId': productId}) }}"
+       class="product-name"
+       title="{{ name }}">
+        {{ name }}
+    </a>
+{% endblock %}
