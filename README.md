@@ -12,6 +12,11 @@ This is particularly important as the variants in Shopware 6 have different URLs
 
 With our plugin, only one URL (that of the main product) is indexed for all variants, thus avoiding duplicate content.
 
+## Supported Shopware versions
+
+- 6.6
+- 6.5
+- 6.4
 
 ## Changelog
 
