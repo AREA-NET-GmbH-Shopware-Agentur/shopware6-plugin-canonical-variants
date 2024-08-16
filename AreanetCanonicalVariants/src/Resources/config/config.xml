@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Basic configuration</title>
+        <title lang="de-DE">Grundeinstellungen</title>
+
+        <input-field type="checkbox">
+            <name>loadParentProduct</name>
+            <label>Load main product in SEO template for variants</label>
+            <label lang="de-DE">Hauptprodukt in SEO-Template bei Varianten laden</label>
+        </input-field>
+
+    </card>
+</config>

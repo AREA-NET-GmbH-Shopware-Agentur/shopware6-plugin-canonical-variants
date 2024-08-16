@@ -1,0 +1,31 @@
+site_name: "Shopware Hilfe - Plugin: Canonical Tags für Varianten"
+repo_url: https://github.com/AREA-NET-GmbH-Shopware-Agentur/shopware6-plugin-canonical-variants
+theme:
+  name: 'material'
+  custom_dir: docs/overrides
+  language: 'de'
+  favicon: 'images/areanet-favicon.ico'
+  logo: 'images/areanet-logo.png'
+  features:
+    - navigation.footer
+  palette:
+    scheme: default
+    primary: custom
+copyright: '<a href="https://www.area-net.de/impressum/">Impressum</a> | <a href="https://www.area-net.de/datenschutz/">Datenschutz</a>'
+extra:
+  generator: false
+extra_css:
+  - stylesheets/areanet.css
+plugins:
+  - tags
+markdown_extensions:
+  - admonition
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+nav:
+  - Beschreibung: index.md
+  - Download und Installation: installation.md
+  - Support: support.md
