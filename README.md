@@ -14,7 +14,9 @@ With our plugin, only one URL (that of the main product) is indexed for all vari
 
 ## Supported Shopware versions
 
-- 6.6
+Stand 07.02.2025 (getestet bis 6.6.9.0)
+
+- 6.6 
 - 6.5
 - 6.4
 
