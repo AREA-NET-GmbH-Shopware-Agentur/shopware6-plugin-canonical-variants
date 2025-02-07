@@ -2,9 +2,9 @@
 
 ## Systemvorausetzungen
 
-- Unterstützte Shopware-Versionen (Stand 16.08.2024)
-    * 6.6 - _getestet bis 6.6.5.1_
-    * 6.5 - _getestet bis 6.5.8.13_
+- Unterstützte Shopware-Versionen (Stand 07.02.2025)
+    * 6.6 - _getestet bis 6.6.9.0_
+    * 6.5 - _getestet bis 6.5.8.18_
     * 6.4
 
 ## Download
