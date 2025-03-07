@@ -32,7 +32,7 @@ Download des entsprechenden ZIP-Files von der [Release-Seite](https://github.com
 
 ### Composer
 
-`composer require areanet/autocustomergroup`
+`composer require areanet/canonicalvariants`
 
 ## Shopware Theme und Plugins
 
