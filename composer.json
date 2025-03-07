@@ -10,6 +10,9 @@
             "homepage": "https://www.area-net.de"
         }
     ],
+    "require": {
+        "shopware/core": "~6.4.0 || ~6.5.0 || ~6.6.0"
+    },
     "extra": {
         "shopware-plugin-class": "AreanetCanonicalVariants\\AreanetCanonicalVariants",
         "plugin-icon": "src/Resources/plugin.png",
