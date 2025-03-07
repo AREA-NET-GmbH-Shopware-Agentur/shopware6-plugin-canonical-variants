@@ -20,7 +20,7 @@ With our plugin, only one URL (that of the main product) is indexed for all vari
 
 ## Changelog
 
-see [Changelog](AreanetCanonicalVariants/CHANGELOG.md)
+see [Changelog](CHANGELOG.md)
 
 ## Shopware Theme und Plugins
 

@@ -1,12 +1,13 @@
 {
     "name": "areanet/canonicalvariants",
     "description": "Varianten mit Canonical Tag auf Hauptprodukt",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "type": "shopware-platform-plugin",
     "license": "MIT",
     "authors": [
         {
-            "name": "AREA-NET GmbH"
+            "name": "AREA-NET GmbH",
+            "homepage": "https://www.area-net.de"
         }
     ],
     "extra": {
@@ -15,6 +16,14 @@
         "label": {
             "de-DE": "Varianten mit Canonical Tag auf Hauptprodukt",
             "en-GB": "Variants with canonical tag"
+        },
+        "manufacturerLink": {
+            "de-DE": "https://www.area-net.de",
+            "en-GB": "https://www.area-net.de"
+        },
+        "supportLink": {
+            "de-DE": "https://github.com/AREA-NET-GmbH-Shopware-Agentur/shopware6-plugin-canonical-variants/issues",
+            "en-GB": "https://github.com/AREA-NET-GmbH-Shopware-Agentur/shopware6-plugin-canonical-variants/issues"
         }
     },
     "autoload": {
