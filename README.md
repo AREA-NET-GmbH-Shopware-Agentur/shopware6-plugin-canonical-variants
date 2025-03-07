@@ -24,6 +24,16 @@ Stand 07.03.2025 (getestet bis 6.6.10.2)
 
 see [Changelog](CHANGELOG.md)
 
+## Installation
+
+### ZIP-Release
+
+Download des entsprechenden ZIP-Files von der [Release-Seite](https://github.com/AREA-NET-GmbH-Shopware-Agentur/shopware6-plugin-canonical-variants/releases) und Installation/Upload in der Shopware-Administration unter Erweiterungen.
+
+### Composer
+
+`composer require areanet/autocustomergroup`
+
 ## Shopware Theme und Plugins
 
 Neben kostenlosen Open-Source Shopware-Plugins bietet die Shopware-Agentur auch Themes und Plugins im Shopware-Store an:
